@@ -1,9 +1,10 @@
-def is_member(x, list_val):
-    list_len = len(list_val)
-    for i in len(list_len):
-        if x == list_val[i]:
+def is_member(x,list_value):
+    list_length = len(list_value)
+    for i in range(list_length):
+        if x==list_value[i]:
             return True
     return False
 
-list1 = [1, 2, 3, 4, 5]
-print(is_member(3,list1))
+abc = [1,4,6,9,34]
+print(is_member(4,abc))
+print(is_member(20,abc))
