@@ -1,9 +1,17 @@
-def longWord(wordslist):
-    words_length = len(wordslist)
+def longestLength(ch):
+    max1 = len(ch[0])
+    arr = ch[0]
+ 
+   
+    for i in ch:
+        if(len(i) > max1):
+ 
+            max1 = len(i)
+            arr = i
+ 
+    print("longest word:", arr)
+    print("its length:", max1)
     
-    for wordslist in words_length:
-      return max(words_length)
+longestLength(["bounty", "twister", "milka", "galaxy"])
     
-wordslist = ['hel7lo', 'hello world', 'hello to universe']
-print(longWord(wordslist))
-        
+    

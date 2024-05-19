@@ -1,7 +1,8 @@
-def histogram(ab):
-    for i in ab:
+def histogram(ch):
+    for i in ch:
       print('*' * i)
-      i+=i
+      
         
-(histogram([49]))    
+(histogram([10, 5, 15]))    
+
 
