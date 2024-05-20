@@ -1,10 +1,10 @@
 # from maxoftwo import max
-from Q2 import max_of_three
-from Q4 import is_vowel
-from Q7 import reverse_string
-from Q9 import is_member
-from Q13 import maximuminlist
-from Q15 import longestLength
+from questions.Q2 import max_of_three
+from questions.Q4 import is_vowel
+from questions.Q7 import reverse_string
+from questions.Q9 import is_member
+from questions.Q13 import maximuminlist
+from questions.Q15 import longestLength
 
 # def test_max_of_two():
 #     result = max(1,2)
