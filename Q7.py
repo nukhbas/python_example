@@ -1,6 +1,5 @@
-def reverse(x):
+def reverse_string(x):
   return x[::-1]
 
-txt = reverse("I am texting")
-
-print(txt)
+if __name__ == "__main__":
+    txt = reverse_string("I am texting")
